@@ -10,7 +10,17 @@
     text-align: center;
  }
 
+ #navSection a{
+     color: white;
+ }
  
 header{
     background-color: #2b2f3d;
+}
+/* Styles for the navigation & Header Section ENDS */
+
+
+/* input form Styles  */
+#inputForm{
+    width: 50%;
 }
