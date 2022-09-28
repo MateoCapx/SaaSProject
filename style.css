@@ -1,8 +1,11 @@
 /* Styles for the navigation & Header Section */
  .mainHeader{
      text-align: center;
-     margin-top: 100px;
      color: white;
+ }
+
+ .mainHeader h1 {
+     padding-top: 100px;
  }
 
  #mainForm{
@@ -13,14 +16,48 @@
  #navSection a{
      color: white;
  }
+
+ #navSection a:hover{
+    font-size: 25px;
+ }
+ .mainSectionn{
+    background-color: #2b2f3d;
+ }
  
 header{
     background-color: #2b2f3d;
+   
 }
+ 
 /* Styles for the navigation & Header Section ENDS */
 
 
 /* input form Styles  */
 #inputForm{
     width: 50%;
+     margin-left: 250px;
 }
+  
+/* Styles for the sticky transitioning navbar  */
+header.sticky{
+    background-color: white;
+    transition: 0.7s;
+    
+     
+}
+ 
+header.sticky #navbarNav ul li a {
+color: black; 
+padding-top: 20px;
+padding-bottom: 20px;
+ 
+}
+header.sticky #sectionNav  a {
+    color: black; 
+}
+
+
+ 
+/* media Queries */
+
+
