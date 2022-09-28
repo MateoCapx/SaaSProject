@@ -38,13 +38,15 @@ header{
      margin-left: 250px;
 }
   
-/* Styles for the sticky transitioning navbar  */
-header.sticky{
-    background-color: white;
-    transition: 0.7s;
-    
-     
+/* Styles for the sticky & transitioning navbar  ------------------- HELPFUL USE AGAIN */
+header.sticky #navSection #sectionNav{
+ position: fixed;
+ background-color: white;
+ transition: 0.9s;
+ opacity: 0.8;
+ 
 }
+ 
  
 header.sticky #navbarNav ul li a {
 color: black; 
@@ -52,9 +54,20 @@ padding-top: 20px;
 padding-bottom: 20px;
  
 }
+/* Nav LOGO Styles */
 header.sticky #sectionNav  a {
     color: black; 
 }
+
+/* END OF Styles for the sticky & transitioning navbar  ------------------- HELPFUL USE AGAIN */
+
+
+
+
+
+
+
+
 
 
  
