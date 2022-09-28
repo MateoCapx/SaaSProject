@@ -1,0 +1,16 @@
+/* Styles for the navigation & Header Section */
+ .mainHeader{
+     text-align: center;
+     margin-top: 100px;
+     color: white;
+ }
+
+ #mainForm{
+    width: 50%;
+    text-align: center;
+ }
+
+ 
+header{
+    background-color: #2b2f3d;
+}
