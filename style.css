@@ -19,6 +19,7 @@
 
  #navSection a:hover{
     font-size: 25px;
+    transition: 0.6s;
  }
  .mainSectionn{
     background-color: #2b2f3d;
@@ -93,11 +94,27 @@ padding-bottom: 50px;
     color:#6c6c6c ;
 }
 
+#topPar p{
+    color:#6c6c6c ;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+    padding: 0 30px;
+ 
+}
+/* END OF styles for top feature section */
 
 
 
+/* START OF styles for Second feature section */
+.secondFeatureSection{
+    background-color:#f8f8f8 ;
+}
 
-
+.sectionTwo{
+padding-top: 150px;
+}
  
 /* media Queries */
 

@@ -8,6 +8,8 @@
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <title>SaaS Project</title>
 </head>
 
@@ -56,16 +58,16 @@
 
     <!-- form inout to get emails  -->
 
-    <div class="input-group mb-3 " id="inputForm">
+    <div class="input-group mb-3 " id="inputForm" data-aos="zoom-in" data-aos-duration="3000">
       <input type="text" class="form-control" placeholder="Email Address" aria-label="Email_Address"
         aria-describedby="button-addon2">
-      <button class="btn btn-primary"  type="button" id="button-addon2">Download</button>
+      <button class="btn btn-primary" type="button" id="button-addon2">Download</button>
     </div>
 
     <br><br><br><br>
 
     <!-- Image Section - Allows image to be Center and Responsive-->
-    <div class="text-center">
+    <div class="text-center" data-aos="zoom-in" data-aos-duration="3000">
       <img class="img-fluid" src="images/headerImage.png" alt="mainImage">
     </div>
 
@@ -74,9 +76,10 @@
 
   <!-- Feature Section -->
   <section>
+
     <div class="container-fluid text-center">
       <div class="row">
-        <div class="col-sm-12">
+        <div class=" col-md-6" id="topPar" data-aos="fade-up" data-aos-duration="3000">
           <h2> Top Features </h2>
           <p> we shows only the best websites, portfolios and landing pages built
             completely with passion, simplicity & creativity !</p>
@@ -131,14 +134,71 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <br><br><br><br><br><br>
+  <!-- Secoond Feature Section  -->
+  <section class="secondFeatureSection">
+    <section class="sectionOne">
+
+      <div class="container ">
+        <div class="row ">
+          <div class="col">
+            <img class="img-fluid" src="images/rocketship.png" alt="mainImage">
+            <br><br>
+            <img class="img-fluid" src="images/line.png" alt="mainImage">
+            <h4>Works on all platforms</h4>
+            <p>Duis aute irure dolor in reprehenderit in voluptate esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur
+              sint occaecat
+              cupidatat non proident, sunt in culpa qui official.</p>
+          </div>
+
+          <div class="col">
+            <img class="img-fluid" src="images/laptop&cellphone.png" alt="mainImage">
+          </div>
+
+    </section>
+
+    <!-- ____________________________________________DIVIDING THE TWO SECTIONS____________________________________________ -->
+    <section class="sectionTwo">
+
+    <div class="container ">
+      <div class="row ">
+        <div class="col" id="tabletSection">
+          <img class="img-fluid" src="images/tablet.png" alt="mainImage">
+        </div>
+
+        <div class="col">
+          <img class="img-fluid" src="images/pointerFinger.png" alt="mainImage">
+          <br><br>
+          <img class="img-fluid" src="images/line.png" alt="mainImage">
+          <h4> Easy & secure access</h4>
+          <p>Duis aute irure dolor in reprehenderit in voluptate esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat
+            cupidatat non proident, sunt in culpa qui official.</p>
+        </div>
+      </div>
+    </div>
+
 
   </section>
 
 
 
 
-
 </body>
 <script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    easing: 'ease',
+
+  });
+</script>
 
 </html>
+
+
+<!-- row-cols-1 row-cols-sm-2 row-cols-md-4
+row-cols-1 row-cols-sm-2 row-cols-md-4 -->
