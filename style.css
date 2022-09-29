@@ -28,8 +28,28 @@ header{
     background-color: #2b2f3d;
    
 }
- 
 /* Styles for the navigation & Header Section ENDS */
+
+
+
+/* START FOR Styles for main button */
+#button-addon2:hover{
+ padding-right: 50px;
+ padding-left: 50px;
+ background-color: rgb(51, 145, 51);
+ transition: 0.6s;
+}
+
+#button-addon2{
+    border-radius: 0px 200px 200px 0px;
+}
+
+input.form-control{
+ border-radius: 20px;
+ padding-left: 30px;
+}
+/* END FOR Styles for main button */
+
 
 
 /* input form Styles  */
@@ -38,6 +58,7 @@ header{
      margin-left: 250px;
 }
   
+
 /* Styles for the sticky & transitioning navbar  ------------------- HELPFUL USE AGAIN */
 header.sticky #navSection #sectionNav{
  position: fixed;
@@ -63,7 +84,14 @@ header.sticky #sectionNav  a {
 
 
 
+/* START OF styles for top feature section */
+#featureSection .col-sm img{
+padding-bottom: 50px;
+}
 
+#featureSection p {
+    color:#6c6c6c ;
+}
 
 
 
