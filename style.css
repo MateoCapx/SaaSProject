@@ -110,6 +110,8 @@ padding-bottom: 50px;
 /* START OF styles for Second feature section */
 .secondFeatureSection{
     background-color:#f8f8f8 ;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .sectionTwo{
@@ -128,9 +130,79 @@ padding-top: 150px;
 background-color: aqua;
 }
 
-#colsForCustomerReview {
- 
+
+/* START of Prices Section Styles  */
+
+/* column 1 */
+#col-1 span{
+font-size: small;
 }
+
+#col-1 h1{
+font-size: 70px;
+}
+     
+
+#col-1 p{
+font-size: small;
+}
+
+#col-1 ul li{
+list-style: none;
+}  
+
+#col-1:hover {
+    background-color: #f6f7fb;
+}
+
+
+
+/* Columns 2  */
+#col-2 span{
+font-size: small;
+} 
+
+ #col-2 h1{
+font-size: 70px;
+}
+
+#col-2 p{
+font-size: small;
+}
+
+#col-2 ul li{
+list-style: none;
+}  
+
+#col-2 {
+    background-color: #f6f7fb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+/* Column 3 */
+ #col-3 span{
+font-size: small;
+ } 
+
+#col-3 h1{
+font-size: 70px;
+}
+
+#col-3 p{
+font-size: small;
+}
+
+#col-3 ul li{
+list-style: none;
+} 
+
+#col-3:hover {
+    background-color: #f6f7fb;
+}
+
 /* media Queries */
 
 
