@@ -128,8 +128,8 @@ padding-top: 150px;
 background-color: aqua;
 }
 
-#colsForCustomerReview .col{
-background-color: red;
+#colsForCustomerReview {
+ 
 }
 /* media Queries */
 
