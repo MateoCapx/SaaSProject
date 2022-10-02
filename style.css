@@ -151,9 +151,7 @@ font-size: small;
 list-style: none;
 }  
 
-#col-1:hover {
-    background-color: #f6f7fb;
-}
+ 
 
 
 
@@ -199,9 +197,29 @@ font-size: small;
 list-style: none;
 } 
 
-#col-3:hover {
-    background-color: #f6f7fb;
+ 
+
+.footerSection{
+    background-color: #2b2f3d;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
 }
+
+.footerSection  span{
+  margin-left: 50px;
+  margin-bottom: 340px;
+}
+
+.footerSection {
+ 
+text-align: center;
+}
+
+
+
+
+
 
 /* media Queries */
 
