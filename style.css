@@ -54,9 +54,9 @@ input.form-control{
 
 
 /* input form Styles  */
-#inputForm{
-    width: 50%;
-     margin-left: 250px;
+.form-control{
+    margin-left: 100px;
+    max-width: 300px;
 }
   
 
@@ -93,6 +93,8 @@ padding-bottom: 50px;
 #featureSection p {
     color:#6c6c6c ;
 }
+
+ 
 
 #topPar p{
     color:#6c6c6c ;
