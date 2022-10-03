@@ -139,6 +139,20 @@ background-color: aqua;
 }
 
 
+ .fa-solid {
+    font-size: 70px;
+    padding-top: 100px; 
+    color: #5584ff;
+    cursor: pointer;
+ }
+  
+.fa-solid:hover{
+color: green;
+
+}
+
+
+
 /* START of Prices Section Styles  */
 
 /* column 1 */
@@ -246,11 +260,7 @@ text-align: center;
    
 }
 
-
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-    @media only screen and (min-width: 700px) {
  
-    }
     
     
 
