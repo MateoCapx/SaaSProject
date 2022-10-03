@@ -29,6 +29,12 @@ header{
     background-color: #2b2f3d;
    
 }
+
+button.navbar-toggler{
+    background-color: white;
+}
+
+
 /* Styles for the navigation & Header Section ENDS */
 
 
@@ -221,8 +227,33 @@ text-align: center;
 
 
 
-
-
 /* media Queries */
 
 
+
+/* Media Queries */
+
+@media only screen and (min-width: 300px) {
+ 
+    #formControl{
+ 
+  
+    }
+    .footerSection span{
+       margin-left: 5px;
+  
+    }
+   
+}
+
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 700px) {
+ 
+    }
+    
+    
+
+
+    
+    
